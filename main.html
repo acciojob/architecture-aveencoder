@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architech site</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            margin: 0;
+            padding: 0;
+            /* background-color: grey; */
+            width: 1100px;
+            height: 50vh;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: #c2f4c8a9;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+            height: auto;
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+        }
+
+        .imageContainer {
+            margin-bottom: 30px;
+        }
+
+        #img {
+            height: 320px;
+            width: 320px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+
+        table {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="imageContainer">
+            <img id="img"
+                src="https://thearchitectsdiary.com/wp-content/uploads/2023/02/Arch2O-architectural-sketching-10-architecture-sketching-tips-1-1024x585.jpg"
+                alt="Architech">
+        </div>
+        <table>
+            <tr>
+                <td class="col-image">
+                    <img src="https://foxylabny.com/wp-content/uploads/2024/08/modern-architecture-building-bosjes-chapel-coetzee-steyn.jpg.webp"
+                        alt="Design 1">
+                </td>
+                <td class="col-text">
+                    <h2>Modern Architecture</h2>
+                    <p>
+                        Modern architecture is characterized by its emphasis on function, simplicity, and the use of
+                        modern materials such as steel and glass. It often features clean lines, open spaces, and a
+                        lack of ornamentation.
+                    </p>
+                </td>
+                <td class="col-image">
+                    <img src="https://blog.architizer.com/wp-content/uploads/oboitut.com_4782.jpg" alt="Design 2">
+                </td>
+            </tr>
+            <tr>
+                <td class="col-image">
+                    <img src="https://landmarksarchitects.com/wp-content/uploads/2024/06/modern-6232024-1024x1024.jpg"
+                        alt="Design 3">
+                </td>
+                <td class="col-text">
+                    <h2>Classical Architecture</h2>
+                    <p>
+                        Classical architecture draws inspiration from the buildings of ancient Greece and Rome. It
+                        is known for its symmetry, columns, and use of traditional design elements that convey a
+                        sense of grandeur and permanence.
+                    </p>
+                </td>
+                <td class="col-image">
+                    <img src="https://landmarksarchitects.com/wp-content/uploads/2024/06/Sustainable-6232024-1024x1024.jpg"
+                        alt="Design 4">
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
